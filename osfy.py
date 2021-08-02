@@ -295,7 +295,7 @@ Autor del Script: "UndeadSec"''')
                         print(f"\n{YELLOW}========================\n")
                         print(GREEN+"¡Instalacion completada!")
                         time.sleep(2)
-                        print(GREEN+"Volviendo...")
+                        print(GREEN+"\nVolviendo...")
                         time.sleep(2)
                 elif p1=="X" or p1=="x":
                         clear()
@@ -532,8 +532,6 @@ Autor del Script: "gkbrk"''')
                         time.sleep(10)
                         print(GREEN+"\nInstalando...")
                         os.system("git clone https://github.com/gkbrk/slowloris.git")
-                        print(GREEN+"\n¡Instalacion completada!")
-                        time.sleep(2)
                         time.sleep(1)
                         clear()
                         print(f"\n\n{YELLOW}========================")
@@ -541,6 +539,8 @@ Autor del Script: "gkbrk"''')
                         print(f"{BLUE}--{GREEN}Os{RED}Fy{RESET}-{GREEN}Tool{BLUE}--")
                         print(f"\n{YELLOW}========================\n")
                         print(GREEN+"¡Instalacion completada!")
+                        time.sleep(2)
+                        print(GREEN+"\nVolviendo...")
                         time.sleep(2)
                 elif p2=="x" or p2=="X":
                         clear()
@@ -821,7 +821,7 @@ def opcion4():
                         print(f"{GREEN}Instalando: '{RED}Python3{GREEN}'\n")
                         os.system("apt install python3 -y")
                         time.sleep(2)
-                        print(GREEN+"\nVoliendo...")
+                        print(GREEN+"\nVolviendo...")
                         time.sleep(2)
                 elif l1=="2":
                         clear()
@@ -887,7 +887,7 @@ def opcion4():
                         print(f"{GREEN}Instalando: '{RED}gcc{GREEN}'\n")
                         os.system("apt install gcc -y")
                         time.sleep(2)
-                        print(GREEN+"Volviendo...")
+                        print(GREEN+"\nVolviendo...")
                         time.sleep(2)
                 elif l1=="x" or l1=="X":
                         clear()
@@ -1274,7 +1274,9 @@ chmod +x setup.sh
 
 ./setup.sh
 
-python3 bruter19.py''')
+python3 bruter19.py
+
+Autor del Script: "AzizKpln"''')
 
                         time.sleep(10)
                         print(GREEN+"\nInstalando...")
@@ -1372,7 +1374,7 @@ def downloads():
                 print(banner)
                 print(f"{BLUE}--{GREEN}Os{RED}Fy{RESET}-{GREEN}Tool{BLUE}--")
                 print(f"\n{YELLOW}========================\n")
-                print(f"{GREEN}Has salido. {GREEN}Volviendo...")
+                print(f"{GREEN}Has salido. {GREEN}\nVolviendo...")
                 time.sleep(5)
 def opcion7():
         while True:
@@ -1381,7 +1383,7 @@ def opcion7():
                 print(banner)
                 print(f"{BLUE}--{GREEN}Os{RED}Fy{RESET}-{GREEN}Tool{BLUE}--")
                 print(f"\n{YELLOW}========================\n")
-                print(f"{GREEN}Estas apunto de instalar mas de {RED}100mb {GREEN}de paquetes.\nPara continuar escriba {CYAN}(yes/no).")
+                print(f"{GREEN}Estas apunto de instalar mas de {RED}100mb {GREEN}de paquetes.\nPara continuar escriba {CYAN}(yes/no){GREEN}.")
                 print(f"{BLUE}[ {PURPLE}X {BLUE}] {RESET}- {CYAN}Volver\n")
                 u1 = input("Ingrese una opción #>>> ")
 
